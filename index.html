@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Demandas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gestor de Demandas</h1>
+    <p>Sistema para gerenciamento de demandas entre áreas de negócio.</p>
+    
+    <h2>Nova Demanda</h2>
+    <form id="formDemanda">
+    
+        <input type="text" id="titulo" placeholder="Título da demanda" required>
+        <br><br>
+        <input type="text" id="area" placeholder="Área solicitante" required>
+        <br><br>
+        <select id="prioridade">
+    
+            <option value="Baixa">Baixa</option>
+            <option value="Média">Média</option>
+            <option value="Alta">Alta</option>
+    
+        </select>
+        <br><br>
+        <button type="submit"> Cadastrar Demanda </button>
+        
+    </form>
+    
+    <hr>
+    
+    <h2>Demandas Cadastradas</h2>
+    <div id="listaDemandas"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
