@@ -1,3 +1,9 @@
+/*
+Controla o cadastro de demandas da aplicação.
+Captura os dados informados no formulário, cria novas demandas
+na interface e atualiza a lista exibida para o usuário.
+*/
+
 const form = document.getElementById("formDemanda");
 const lista = document.getElementById("listaDemandas");
 
